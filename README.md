@@ -1,6 +1,6 @@
 # Send me a message on Ethereum Network.
 
-This project demonstrates a basic use case of Blockchain Technology in which you would lear sever things just by sending me a message.
+This project demonstrates a basic use case of Blockchain Technology in which you would learn several things just by sending me a message.
 
 # What is Blockchain? ⛓
 In simple words, blockchain is a open ledger 📖🌏 that is used by every single node to process things in real world. In this ledger, smart contracts are defined so that they are executed automatically when a condition defined in them gets fulfilled. 
