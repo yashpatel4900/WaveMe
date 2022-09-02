@@ -3,7 +3,7 @@
 This project demonstrates a basic use case of Blockchain Technology in which you would lear sever things just by sending me a message.
 
 # What is Blockchain?
-In simple words, blockchain is a open ledger that is used by every single node to process things in real world. In this ledger, smart contracts and defined that are executed automatically when a condition defined in them gets fulfilled. 
+In simple words, blockchain is a open ledger that is used by every single node to process things in real world. In this ledger, smart contracts are defined so that they are executed automatically when a condition defined in them gets fulfilled. 
 
 # Some key points to understand
 1. Based on a defined blockchain there are multiple networks running at a time using same protocol. Also, for each of the network, Testnets are present on which the smart contract could be tested before deploying them on Mainnet.
