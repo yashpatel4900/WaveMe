@@ -2,8 +2,11 @@ const main = async () => {
   const [owner, randomPerson] = await hre.ethers.getSigners();
   const waveContractFactory = await hre.ethers.getContractFactory("WaveMe");
   const waveContract = await waveContractFactory.deploy();
-  await waveContract.deployed();
-  console.log("Contract deployed to:", waveContract.address);
+  await waveContract.deployed({
+    value: hre.ethers.utils.parseEther("0.1"),
+  });
+  console.log("Contract deployed to: ", waveContract.address);
+  console.log("Contract Owner: ", waveContract.owner);
 
   let waveCount;
   waveCount = await waveContract.showTotalCount();
@@ -15,6 +18,11 @@ const main = async () => {
 
   waveCount = await waveContract.showTotalCount();
   console.log("New waveCount: ", waveCount);
+
+  console.log(
+    "Current Contract Balance is : ",
+    waveContract.getContractBalance()
+  );
 };
 
 const runMain = async () => {
