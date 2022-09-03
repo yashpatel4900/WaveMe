@@ -23,7 +23,7 @@ In simple words, blockchain is a open ledger 📖🌏 that is used by every sing
 1. First of all when the webpage loads up, it searchs for a Crypto Wallet linked to Polygon Network to connect with.
 2. So when it gets connected, it allways you to see all the previsous transactions (messages) when were mined ⛏ using that contract.
 3. On sending a message, a metamask pop up comes on the screen which asks you to pay a nominal gas fee 🧾 to mine the transaction on the testnetwork.
-4. Wait, it take some time for the minners to collect a bunch of transactions requested by everyone on the network, after which a block gets minned on the Ethereum Testnetwork representing all the transactions which were wrote at once. This Block will never be deleted from the Blockchain as a copy of it was replicated and sent to all the miners (Nodes).
+4. Wait! it take some time for the minners to collect a bunch of transactions requested by everyone on the network, after which a block gets minned on the Ethereum Testnetwork representing all the transactions which were wrote at once. This Block will never be deleted from the Blockchain as a copy of it was replicated and sent to all the miners (Nodes).
 5. When you requested the smart contract to send me a message, at that time an algorithm runs in it which was defined to get you a 33% chance of receiving 0.1 Matic from the contract. Which means, if the contract satisfies certain condition then it can automatically sign a transaction to send you some MATIC 💸 from its balance. 
 6. Successfully sent messages can be seen on the webpage on a refresh as a method from the smart contract gets called to represet the data it holds.
 
